@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/course_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="MTH002"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Core Mathematics"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/course_credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="Credits: 3"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/course_prerequisites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:text="Prerequisites: There are no prerequisites for entry."
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/course_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#232323"
+        android:fontFamily="serif"
+        android:text="Description: The course sets out the basics of mathematical principles and moves into more advanced applications which will equip students to effectively cope with other mathematics courses they will encounter. Topics include arithmetic operations, and basic statistics, trigonometry, and graphs. This course is open-entry."
+        android:textSize="17sp"/>
+
+
+</LinearLayout>

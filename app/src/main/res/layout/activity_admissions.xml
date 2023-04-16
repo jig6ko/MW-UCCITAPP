@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AdmissionsActivity">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:background="@drawable/bg_view" />
+
+    <TextView
+        android:id="@+id/admissions_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_view"
+        android:layout_alignBottom="@+id/top_view"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="-228dp"
+        android:fontFamily="sans-serif"
+        android:text="To apply for UCC undergraduate programmes, candidates need a minimum of 5 GCE or CSEC subjects with grades A, B, C or 1, 2, 3, including English and Math. Those with at least 4 CXCs may need to complete UCC replacement courses. Alternatively, mature candidates over 25 years old with 5+ years work experience can apply with academic qualifications, resume, job letter, and 3 professional references."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/ucc_application_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admissions_text"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="260dp"
+        android:background="#5E1BB1"
+        android:fontFamily="casual"
+        android:text="Apply to UCC now"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        app:srcCompat="@drawable/_4" />
+
+</RelativeLayout>
